@@ -1,0 +1,42 @@
+#logo {
+    height: auto;
+    width: 13vw;
+}
+.cardContainer {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#items {
+    font-weight: bold;
+}
+.top-primary {
+    background-color: #EAF6F6 !important;
+}
+.btn-primary {
+    background-color: orangered;
+}
+.bg-primary {
+    background-color: #EAF6F6 !important;
+}
+footer > p{
+    color: #EAF6F6;
+    margin: 0;
+    padding: 1vw
+  }
+  @media only screen and (max-width: 600px) {
+    #hero .row {
+        flex-direction: column-reverse;
+    }
+}
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+    
+

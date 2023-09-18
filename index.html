@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watsons Homepage</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- Navbar Section -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary shadow">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img class="img-fluid w-25" src="images/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                All Brands
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Dove</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Luxe Organix</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about_us.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact_us.html">Contact Us</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+        <section class="container p-5" id="hero">
+            <div class="row align-items-center">
+                <div class="col-md-7 p-5">
+                    <h1 class="#">Look Good, Do Good, <br>Feel Great</h1>
+                    <p class="btn btn-primary">Shop Now!</p>
+                </div>
+
+                <div class="col-md-5 mt-4">
+                    <div class="row">
+                        <img class="col-md-12container pt-2"
+                            src="https://png.pngtree.com/png-clipart/20230430/original/pngtree-skin-care-beauty-beauty-set-png-image_9125811.png"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section>
+            <div id="carouselExampleFade" class="carousel slide carousel-fade shadow">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/watsonsako.webp" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/man.webp" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/dog.webp" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <br>
+        <section>
+            <h1 class="top-primary fs-3 text-center p-2 text-black shadow">TOP PICKS FOR YOU</h1>
+            <div class="container">
+                <div class="row gx-5 gy-5 mt-3">
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="cardContainer">
+                            <div class="card ms-2 shadow">
+                                <img src="images/item1.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">BUSCOPAN</h5>
+                                    <p class="card-text">Hyoscine N-butylbromide 10mg 1 Tablet.</p>
+                                    <a id="items">₱30</a>
+                                    <a href="#" class="btn btn-primary text-white float-end">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card ms-2 shadow">
+                            <img src="images/item2.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">BUSCOPAN</h5>
+                                <p class="card-text">Hyoscine + N-butylbromide 10mg 4 Tablets.</p>
+                                <a id="items">₱118</a>
+                                <a href="#" class="btn btn-primary text-white float-end">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card ms-2 shadow">
+                            <img src="images/item3.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">BUSCOPAN</h5>
+                                <p class="card-text">Hyoscine-N-Butylbromide 10mg Paracetamol 500mg.</p>
+                                <a id="items">₱31.50</a>
+                                <a href="#" class="btn btn-primary text-white float-end">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card ms-2 shadow">
+                            <img src="images/item4.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">BIOGESIC</h5>
+                                <p class="card-text">Biogesic Paracetamol 500mg 10 Tablets.</p>
+                                <a id="items">₱34.50</a>
+                                <a href="#" class="btn btn-primary text-white float-end">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+    </main>
+
+    <hr>
+
+    <footer class="container-fluid bg-primary p-2 text-black fw-bold text-center">
+        <p class="text-black">&#169; 2023 SAM CIUDAD, ALL RIGHTS RESERVED.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
